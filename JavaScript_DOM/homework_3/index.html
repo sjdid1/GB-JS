@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p class="super_element">Привет</p>
+
+<img src="https://placeimg.com/50/50/animals" alt="">
+<img src="https://placeimg.com/50/50/arch" alt="">
+<img src="https://placeimg.com/50/50/nature" alt="">
+<img src="https://placeimg.com/50/50/people" alt="">
+<img src="https://placeimg.com/50/50/tech" alt="">
+<img src="https://placeimg.com/50/50/tech/grayscale" alt="">
+<img src="https://placeimg.com/50/50/tech/sepia" alt="">
+
+<br>
+
+<button>Кнопка</button>
+<button class="super_element">Кнопка с классом btn</button>
+<button>Кнопка</button>
+
+<br>
+
+<textarea></textarea>
+
+<br>
+
+<ul>
+<li>
+<button>Кнопка 1</button>
+</li>
+<li>
+<button>Кнопка 2</button>
+</li>
+<li>
+<button>Кнопка 3</button>
+</li>
+<li>
+<button>Кнопка 4</button>
+</li>
+</ul>
+
+<script>
+"use strict";
+// Task 1
+document.addEventListener("DOMContentLoaded", function() {
+    console.log("All tags have been loaded");
+});
+
+// Task 2
+window.addEventListener("load", function() {
+    console.log("Page loaded");
+});
+
+// Task 3
+document.addEventListener("click", function(event) {
+    if (event.target.classList.contains("super_element")) {
+        console.log(The class "super_element" is present in the element "${event.target.tagName.toLowerCase()}".);
+    } else {
+        console.log(The class "super_element" is absent in the element "${event.target.tagName.toLowerCase()}".);
+    }
+});
+
+// Task 4
+document.querySelector("textarea").addEventListener("mouseover", function() {
+    console.log("You hovered over a textarea.");
+});
+
+// Task 5
+document.querySelector("ul").addEventListener("click", function(event) {
+    if (event.target.tagName === "BUTTON") {
+        console.log(event.target.textContent);
+    }
+});
+
+// Task 7
+const liTags = document.querySelectorAll("li");
+liTags.forEach((li, index) => {
+    if (index % 2 !== 0) {
+        li.style.backgroundColor = "lightgray";
+    }
+});
+
+</script>
+</body>
+</html>
