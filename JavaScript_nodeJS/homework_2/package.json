@@ -2,10 +2,10 @@
   "name": "javascript_nodejs",
   "version": "1.0.0",
   "description": "password generator",
-  "main": "index.js",
+  "main": "passwordGenerator.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "sjdid",
   "license": "ISC"
 }
