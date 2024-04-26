@@ -1,11 +1,19 @@
 {
-  "name": "javascript_nodejs",
+  "name": "javascript_nodejs_randgen",
   "version": "1.0.0",
   "description": "password generator",
-  "main": "passwordGenerator.js",
+  "main": " ",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ./index.js"
   },
   "author": "sjdid",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sjdid1/GB-JS.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sjdid1/GB-JS/issues"
+  },
+  "homepage": "https://github.com/sjdid1/GB-JS#readme"
 }
