@@ -1,5 +1,5 @@
 const { write } = require('fs')
-const { changeInfo, readInfo } = require('./counterReadWrite')
+const { changeInfo, readInfo } = require('/counterReadWrite')
 const express = require('express');
 const app = express();
 
