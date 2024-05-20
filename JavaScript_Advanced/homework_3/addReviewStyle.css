@@ -1,0 +1,11 @@
+.buttons {
+  margin-top: 20px;
+  color: aliceblue;
+  background-color: coral;
+  border-radius: 10px;
+  border: solid 1px coral;
+}
+.buttons:hover {
+  background-color: aliceblue;
+  color: coral;
+}/*# sourceMappingURL=addReviewStyle.css.map */
