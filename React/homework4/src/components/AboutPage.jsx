@@ -4,7 +4,11 @@ const AboutPage = () => {
   return (
     <div>
       <h1>About Us</h1>
-      <Link to="/home">Home</Link>
+      <p>Information about company</p>
+      <Link to="/one">Home page</Link>
+      <div>
+      <Link to="/">Main page</Link>
+      </div>
     </div>
   );
 };
