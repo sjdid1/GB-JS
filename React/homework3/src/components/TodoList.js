@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { TextField, Button, Card, CardContent, IconButton, Typography, Grid } from "@mui/material";
+import { TextField, Button, Card, CardContent, IconButton, Typography } from "@mui/material";
 import DeleteIcon from "@mui/icons-material/Delete";
 
 export default function TodoList() {
